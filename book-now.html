@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/a2452b3ff6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li>
+          <a class="logo" href="#"
+            ><span class="fa-brands fa-forumbee"></span> RiDiscover</a
+          >
+        </li>
+        <li><a href="index.html#places">Places</a></li>
+        <li><a href="#">Book now</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li class="btn"><a href="signup.html" class="btn-link">Sign up</a></li>
+        <li class="btn">
+          <a href="signin.html" class="btn-link btn-link--primary">Sign in</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="book-flight">
+      <div class="background-color"></div>
+      <div class="beach"><img src="./images/beach.jpg" alt="" /></div>
+      <div class="content">
+        <div class="form-container">
+          <div class="call-out">
+            <h2>Where would you</h2>
+            <span>like to go?</span>
+          </div>
+          <form>
+            <div class="input-container">
+              <label for="from">From</label>
+              <input
+                type="text"
+                name="from"
+                id="from"
+                placeholder="Ottawa Macdonald-international Airport, Canadas"
+              />
+            </div>
+            <div class="input-container">
+              <label for="destination">To</label>
+              <input
+                type="text"
+                name="destination"
+                id="destination"
+                placeholder="New Delhi Airport, India"
+              />
+            </div>
+
+            <div class="inline-form">
+              <div class="input-container">
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" />
+              </div>
+              <div class="input-container">
+                <label for="person">Person &middot; Class</label>
+                <input
+                  type="text"
+                  name="person"
+                  id="person "
+                  placeholder="1 Person - Business"
+                />
+              </div>
+            </div>
+            <a href="details.html" class="button">Book now</a>
+          </form>
+        </div>
+        <div class="banner">
+          <img src="./images/plane.png" alt="airplane" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/a2452b3ff6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+        <li>
+          <a class="logo" href="#"
+            ><span class="fa-brands fa-forumbee"></span> RiDiscover</a
+          >
+        </li>
+        <li><a href="index.html#places">Places</a></li>
+        <li><a href="#">Book now</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li class="btn"><a href="signup.html" class="btn-link">Sign up</a></li>
+        <li class="btn">
+          <a href="signin.html" class="btn-link btn-link--primary">Sign in</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Details -->
+    <section class="details">
+      <div class="content">
+        <h2>Please fill in the details</h2>
+        <div class="personal-information">
+          <h3>Personal Information</h3>
+          <div class="inline-form">
+            <div class="input-container">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Juan"
+              />
+            </div>
+            <div class="input-container">
+              <label for="middle-name">Middle Name</label>
+              <input
+                type="text"
+                name="middle-name"
+                id="middle-name"
+                placeholder="Contempo"
+              />
+            </div>
+            <div class="input-container">
+              <label for="last-name">Last Name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Dela Cruz"
+              />
+            </div>
+          </div>
+          <div class="inline-form">
+            <div class="input-container">
+              <label for="bday">Birthday</label>
+              <input type="date" name="bday" id="bday" />
+            </div>
+            <div class="input-container">
+              <label for="mail">Email</label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="yourname@email.com"
+              />
+            </div>
+            <div class="input-container">
+              <label for="pnumber">Phone Number</label>
+              <input
+                type="tel"
+                name="pnumber"
+                id="pnumber"
+                placeholder="09xxxxxxxxx"
+              />
+            </div>
+            <div class="input-container input-container--inline">
+              <label for="gender">Gender</label>
+              <div class="gap">
+                <div class="input-container input-container--gender">
+                  <label for="gender">Male</label>
+                  <input type="radio" name="gender" id="gender" value="male" />
+                </div>
+                <div class="input-container input-container--gender">
+                  <label for="gender">Female</label>
+                  <input type="radio" name="gender" id="gender" value="male" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="address">
+          <h3>Address</h3>
+          <div class="inline-form">
+            <div class="input-container">
+              <label for="barangay">Barangay</label>
+              <input
+                type="text"
+                name="barangay"
+                id="barangay"
+                placeholder="Casanueva"
+              />
+            </div>
+            <div class="input-container">
+              <label for="city">City</label>
+              <input type="text" name="city" id="city" placeholder="Muerte" />
+            </div>
+            <div class="input-container">
+              <label for="province">Province</label>
+              <input
+                type="text"
+                name="province"
+                id="province"
+                placeholder="Mexico"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
